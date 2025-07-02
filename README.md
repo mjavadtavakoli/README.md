@@ -1,5 +1,26 @@
-
 # HTTP Status Codes
+
+This document provides a categorized list of standard HTTP status codes, along with brief explanations for each.  
+HTTP status codes are issued by a server in response to a client's request made to the server. They help indicate whether a specific HTTP request has been successfully completed or if an error has occurred.
+
+Understanding these status codes is essential for:
+- Designing reliable and RESTful APIs
+- Writing automated tests (e.g., Postman, Playwright, Go test)
+- Debugging and handling API responses properly
+
+---
+
+## Legend:
+
+- 🔵 **1xx – Informational**: Request received, continuing process.
+- 🟢 **2xx – Success**: The action was successfully received and understood.
+- 🟡 **3xx – Redirection**: Further action needs to be taken to complete the request.
+- 🔴 **4xx – Client Error**: The request contains bad syntax or cannot be fulfilled.
+- 🔴🔴 **5xx – Server Error**: The server failed to fulfill a valid request.
+
+Scroll down to explore the full categorized list with real-world usage notes.
+
+
 
 ## 🔵 1xx: Informational
 
